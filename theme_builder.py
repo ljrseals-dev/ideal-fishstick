@@ -2,8 +2,7 @@
 theme_builder.py
 
 Reads a game sequence extract, applies style rules, and writes a new,
-original theme. The new theme follows the style traits (BPM, scale, chords,
-drums, melody notes) but uses a completely different note choice.
+original theme. Expanded to generate full-length tracks based on section bar counts.
 """
 
 import json
@@ -15,18 +14,18 @@ from music_genre_templates import get_template, list_templates
 NOTE_NAMES = ["C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"]
 
 SCALE_INTERVALS = {
-    "major": [0, 2, 4, 5, 7, 9, 11],
-    "natural minor": [0, 2, 3, 5, 7, 8, 10],
-    "harmonic minor": [0, 2, 3, 5, 7, 8, 11],
-    "melodic minor": [0, 2, 3, 5, 7, 9, 11],
+    "major":            [0, 2, 4, 5, 7, 9, 11],
+    "natural minor":    [0, 2, 3, 5, 7, 8, 10],
+    "harmonic minor":   [0, 2, 3, 5, 7, 8, 11],
+    "melodic minor":    [0, 2, 3, 5, 7, 9, 11],
     "major pentatonic": [0, 2, 4, 7, 9],
     "minor pentatonic": [0, 3, 5, 7, 10],
-    "blues scale": [0, 3, 5, 6, 7, 10],
-    "dorian": [0, 2, 3, 5, 7, 9, 10],
-    "lydian": [0, 2, 4, 6, 7, 9, 11],
-    "mixolydian": [0, 2, 4, 5, 7, 9, 10],
-    "phrygian": [0, 1, 3, 5, 7, 8, 10],
-    "hirajoshi": [0, 2, 3, 7, 8],
+    "blues scale":      [0, 3, 5, 6, 7, 10],
+    "dorian":           [0, 2, 3, 5, 7, 9, 10],
+    "lydian":           [0, 2, 4, 6, 7, 9, 11],
+    "mixolydian":       [0, 2, 4, 5, 7, 9, 10],
+    "phrygian":         [0, 1, 3, 5, 7, 8, 10],
+    "hirajoshi":        [0, 2, 3, 7, 8],
 }
 
 
@@ -76,8 +75,8 @@ def build_theme(extract: dict, genre_id: str, seed: int = 42) -> dict:
     groove = rng.choice(template.drum_grooves) if template.drum_grooves else None
 
     original = extract["extracted_rhythm"]
-    new_melody = []
-    for i, step in enumerate(original):
+    motif_melody = []
+    for step in original:
         orig_pitch = note_to_pitch(step["note"])
         degree = orig_pitch % 7
         target_octave = orig_pitch // 12
@@ -85,13 +84,31 @@ def build_theme(extract: dict, genre_id: str, seed: int = 42) -> dict:
         if not candidates:
             candidates = scale_pitches
         chosen = candidates[degree % len(candidates)]
-        new_melody.append({
+        motif_melody.append({
             "note": pitch_to_note(chosen),
             "duration_ticks": step["duration_ticks"],
         })
+    # Resolve final note of motif to root
+    motif_melody[-1]["note"] = pitch_to_note(root + 60)
 
-    # Resolve to root
-    new_melody[-1]["note"] = pitch_to_note(root + 60)
+    total_bars = sum(section.bars for section in template.sections)
+    total_target_ticks = total_bars * 4 * 480
+
+    # Expand motif to fill total_target_ticks
+    expanded_melody = []
+    current_ticks = 0
+
+    while current_ticks < total_target_ticks:
+        for step in motif_melody:
+            remaining = total_target_ticks - current_ticks
+            if remaining <= 0:
+                break
+            dur = min(step["duration_ticks"], remaining)
+            expanded_melody.append({
+                "note": step["note"],
+                "duration_ticks": dur,
+            })
+            current_ticks += dur
 
     new_bpm = rng.randint(template.bpm_range[0], template.bpm_range[1])
     if "boom bap" in template.swing:
@@ -107,10 +124,11 @@ def build_theme(extract: dict, genre_id: str, seed: int = 42) -> dict:
         "time_signature": template.time_signature,
         "key": new_key,
         "scale": new_scale,
+        "total_bars": total_bars,
         "chord_progression": list(progression.example_chords),
         "drum_groove": groove.pattern if groove else None,
         "drum_name": groove.name if groove else None,
-        "melody": new_melody,
+        "melody": expanded_melody,
         "production_notes": list(template.production_notes),
         "harmony_notes": list(template.harmony_notes),
         "rhythm_notes": list(template.rhythm_notes),
@@ -126,16 +144,19 @@ def main():
     print("Reading game extract...")
     extract = load_extract("game_extract.json")
     print(f"  Source: {extract['source_game']}")
-    print(f"  Notes: {len(extract['extracted_rhythm'])}")
+    print(f"  Motif notes: {len(extract['extracted_rhythm'])}")
 
-    print("\nBuilding new themes:")
+    print("\nBuilding full-length themes:")
     for gid, name in list_templates():
-        print(f"  - {name}")
         theme = build_theme(extract, gid, seed=100)
         filename = f"new_theme_{gid}.json"
         save_theme(theme, filename)
+        total_ticks = theme["total_bars"] * 4 * 480
+        duration_sec = theme["total_bars"] * 4 * 60 / theme["bpm"]
+        print(f"  - {name}")
         print(f"    Saved: {filename}")
         print(f"    Key: {theme['key']}  Scale: {theme['scale']}  BPM: {theme['bpm']}")
+        print(f"    Bars: {theme['total_bars']}  Ticks: {total_ticks}  Duration: {duration_sec:.1f}s")
 
     print("\nDone.")
 

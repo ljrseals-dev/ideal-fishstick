@@ -6,6 +6,7 @@
   "time_signature": "4/4 or 3/4",
   "key": "G major",
   "scale": "melodic minor",
+  "total_bars": 64,
   "chord_progression": [
     "Am",
     "Dm",
@@ -61,6 +62,1218 @@
     {
       "note": "G4",
       "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
     }
   ],
   "production_notes": [

@@ -1,8 +1,8 @@
 """
 midi_exporter.py
 
-Converts a new theme JSON into a standard MIDI file with no external
-dependencies. Writes the melody track plus a simple drum track.
+Converts a full-length theme JSON into a standard MIDI file with no external
+dependencies. Builds full-length melody and drum tracks based on total_bars.
 """
 
 import json
@@ -68,7 +68,9 @@ def build_melody_track(theme: dict, channel: int = 0) -> bytes:
 
 def build_drum_track(theme: dict, channel: int = 9) -> bytes:
     pattern = theme.get("drum_groove") or {}
-    ticks_per_step = 120  # 16 steps * 120 = 1920 ticks = 4 bars at 480 PPQ
+    total_bars = theme.get("total_bars", 36)
+    ticks_per_step = 120  # 16 steps * 120 = 1920 ticks = 1 bar at 480 PPQ
+    total_steps = total_bars * 16
 
     gm = {
         "kick": 36, "snare": 38, "closed_hat": 42, "open_hat": 46,
@@ -77,14 +79,14 @@ def build_drum_track(theme: dict, channel: int = 9) -> bytes:
     }
 
     events = bytearray()
-    total_steps = 16
 
-    for step in range(total_steps):
+    for s in range(total_steps):
+        step_idx = s % 16
         hits = []
         for name, steps in pattern.items():
-            if step < len(steps) and steps[step] in "xXo":
+            if step_idx < len(steps) and steps[step_idx] in "xXo":
                 if name in gm:
-                    velocity = 110 if steps[step] == "X" else 90
+                    velocity = 110 if steps[step_idx] == "X" else 90
                     hits.append((gm[name], velocity))
 
         if hits:
@@ -122,4 +124,5 @@ if __name__ == "__main__":
             theme = json.load(f)
         out = f"new_theme_{gid}.mid"
         export_midi(theme, out)
-        print(f"Exported {out}")
+        bars = theme.get("total_bars", "?")
+        print(f"Exported full-length {out} ({bars} bars)")

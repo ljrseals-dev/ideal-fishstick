@@ -6,6 +6,7 @@
   "time_signature": "4/4",
   "key": "C minor",
   "scale": "minor pentatonic",
+  "total_bars": 40,
   "chord_progression": [
     "Dm7",
     "G7",
@@ -62,6 +63,750 @@
     {
       "note": "C4",
       "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
     }
   ],
   "production_notes": [
