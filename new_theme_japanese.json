@@ -1,0 +1,84 @@
+{
+  "title": "Original Theme in D major",
+  "style": "Japanese Pop / City Pop with Traditional Color",
+  "style_id": "japanese",
+  "bpm": 113,
+  "time_signature": "4/4",
+  "key": "D major",
+  "scale": "minor pentatonic",
+  "chord_progression": [
+    "Fmaj7",
+    "E7",
+    "Am7",
+    "Gm7",
+    "C7"
+  ],
+  "drum_groove": {
+    "kick": "x---x---x---x---",
+    "snare": "----x-------x---",
+    "closed_hat": "x-x-x-x-x-x-x-x-",
+    "open_hat": "----x-------x---"
+  },
+  "drum_name": "city_pop",
+  "melody": [
+    {
+      "note": "A4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 960
+    }
+  ],
+  "production_notes": [
+    "Warm lows",
+    "Chorus guitar",
+    "Short room reverb"
+  ],
+  "harmony_notes": [
+    "Major 7th and 9th",
+    "Royal road for chorus",
+    "Minor iv color"
+  ],
+  "rhythm_notes": [
+    "Steady verse",
+    "Open chorus",
+    "Light syncopation"
+  ]
+}

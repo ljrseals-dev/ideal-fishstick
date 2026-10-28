@@ -1,0 +1,81 @@
+{
+  "title": "Original Theme in G major",
+  "style": "Western Classical Music",
+  "style_id": "classical",
+  "bpm": 110,
+  "time_signature": "4/4 or 3/4",
+  "key": "G major",
+  "scale": "melodic minor",
+  "chord_progression": [
+    "Am",
+    "Dm",
+    "E7",
+    "Am"
+  ],
+  "drum_groove": {
+    "timpani": "X-------X-------",
+    "low_strings": "X---X---X---X---"
+  },
+  "drum_name": "timpani",
+  "melody": [
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "E4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "G4",
+      "duration_ticks": 960
+    }
+  ],
+  "production_notes": [
+    "Hall reverb",
+    "Natural dynamics",
+    "Balanced sections"
+  ],
+  "harmony_notes": [
+    "Diatonic first",
+    "Secondary dominants",
+    "Counterpoint"
+  ],
+  "rhythm_notes": [
+    "Rhythmic motifs",
+    "Augmentation",
+    "Rests"
+  ]
+}

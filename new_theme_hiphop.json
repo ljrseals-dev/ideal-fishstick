@@ -1,0 +1,82 @@
+{
+  "title": "Original Theme in C minor",
+  "style": "Hip-Hop / Rap / Trap",
+  "style_id": "hiphop",
+  "bpm": 95,
+  "time_signature": "4/4",
+  "key": "C minor",
+  "scale": "minor pentatonic",
+  "chord_progression": [
+    "Dm7",
+    "G7",
+    "Cmaj7",
+    "Am7"
+  ],
+  "drum_groove": {
+    "kick": "x-----x-x-----x-",
+    "snare": "----x-------x---",
+    "closed_hat": "x-x-x-x-x-x-x-x-"
+  },
+  "drum_name": "boom_bap",
+  "melody": [
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "F4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 240
+    },
+    {
+      "note": "A#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "D#4",
+      "duration_ticks": 480
+    },
+    {
+      "note": "C4",
+      "duration_ticks": 960
+    }
+  ],
+  "production_notes": [
+    "Tune 808",
+    "Sidechain 808",
+    "Forward vocal"
+  ],
+  "harmony_notes": [
+    "Minor loops",
+    "One or two chords",
+    "Jazz for boom bap"
+  ],
+  "rhythm_notes": [
+    "Boom bap swing",
+    "Half-time trap",
+    "Triplet flows"
+  ]
+}

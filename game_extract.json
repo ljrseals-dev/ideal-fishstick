@@ -1,0 +1,19 @@
+{
+  "source_game": "Simulated Legacy Game",
+  "ticks_per_quarter": 480,
+  "original_bpm": 110,
+  "base_key": "C",
+  "extracted_rhythm": [
+    {"note": "C4", "duration_ticks": 240},
+    {"note": "E4", "duration_ticks": 240},
+    {"note": "G4", "duration_ticks": 480},
+    {"note": "E4", "duration_ticks": 240},
+    {"note": "C4", "duration_ticks": 240},
+    {"note": "D4", "duration_ticks": 480},
+    {"note": "F4", "duration_ticks": 240},
+    {"note": "A4", "duration_ticks": 240},
+    {"note": "G4", "duration_ticks": 480},
+    {"note": "E4", "duration_ticks": 480},
+    {"note": "C4", "duration_ticks": 960}
+  ]
+}
